@@ -1,8 +1,23 @@
 .navbar {
     width: 100%;
-    background: black;
-    opacity: 0.75;
-    color: white;
     position: fixed;
     top: 3;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    place-content: center space-between;
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: 640;
+    color: white;
+    .elements {
+        place-content: center space-between;
+        align-items: center;
+        flex-direction: row;
+        box-sizing: border-box;
+        display: flex;
+        .margin{
+            margin-right: 3.8vh;
+        }
+    }
 }

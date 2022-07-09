@@ -1,9 +1,9 @@
 # Portfolio
 
 This is my personal portfolio.\
-I hope u enjoy this project!
+I hope you enjoy this project!
 
-## Also you can check my social media:
+## Also check my social media:
 
 ### `Facebook:` [Szymon Smolorz](https://www.facebook.com/szy.milel.7/)
 
