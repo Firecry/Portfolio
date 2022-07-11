@@ -1,8 +1,9 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-import Footer from './components/Footer'
-import './css/App.css'
+import Footer from './components/Footer';
+import Aboutme from './components/Aboutme';
+import './css/App.css';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Home />
       <Footer />
+      <Aboutme />
     </div>
   );
 }

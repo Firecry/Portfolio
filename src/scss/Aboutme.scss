@@ -1,11 +1,11 @@
-.home {
+.aboutme {
     display: block;
     height: 100vh;
-    width: 100%;
+    color: white;
     background: linear-gradient(
         335deg,
-        #cc2b5e 0%,
-        #ffe4a8 100%
+        rgba(255,140,107,1) 0%,
+        rgba(255,228,168,1) 100%
     );
     background-color: black;
     background-position: center;
@@ -14,10 +14,4 @@
     background-attachment: fixed;
     font-size: 5rem;
     user-select: none;
-}
-.title{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
