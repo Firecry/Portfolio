@@ -26,6 +26,7 @@
     border: 3px solid transparent;
     transition: .3s ease-in-out;
     border-radius: 2px 2px 0 0;
+    user-select: none;
     &:hover{
         transform: translate(0, -5px);
         border-bottom: 3px solid black;
