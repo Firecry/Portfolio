@@ -1,4 +1,9 @@
 .footer{
-    background-color: whitesmoke;
-    height: 1.5vh;
+    height: 5vh;
+    .footerTitle{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }

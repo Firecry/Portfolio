@@ -1,6 +1,6 @@
 .home {
   display: block;
-  height: 100vh;
+  height: 95vh;
   width: 100%;
   background: linear-gradient(335deg, #cc2b5e 0%, #ffe4a8 100%);
   background-color: black;
@@ -16,7 +16,7 @@
 }
 
 .title {
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);

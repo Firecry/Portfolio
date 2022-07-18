@@ -1,3 +1,7 @@
+body{
+    scroll-behavior: contain;
+}
+
 ::-webkit-scrollbar {
     background-color: rgb(36, 36, 36);
     width: 15px;

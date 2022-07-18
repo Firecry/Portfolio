@@ -1,6 +1,6 @@
 .home {
     display: block;
-    height: 100vh;
+    height: 95vh;
     width: 100%;
     background: linear-gradient(
         335deg,
@@ -16,7 +16,7 @@
     user-select: none;
 }
 .title{
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
