@@ -1,12 +1,10 @@
 .home {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 95vh;
     width: 100%;
-    background: linear-gradient(
-        335deg,
-        #cc2b5e 0%,
-        #ffe4a8 100%
-    );
+    background-image: url(../assets/planet.jpg);
     background-color: black;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,10 +12,5 @@
     background-attachment: fixed;
     font-size: 5rem;
     user-select: none;
-}
-.title{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    color: whitesmoke;
 }
