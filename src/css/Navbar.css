@@ -9,6 +9,7 @@
   padding: 20px;
   font-size: 1.5rem;
   font-weight: 640;
+  color: black;
 }
 .navbar .elements {
   place-content: center space-between;
@@ -31,9 +32,12 @@
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+  background-color: rgba(0, 0, 0, 0.068);
+  border-radius: 5px;
 }
 .border:hover {
   transform: translate(0, -5px);
   border-bottom: 3px solid black;
   background-color: rgba(0, 0, 0, 0.096);
+  border-radius: 2px;
 }
