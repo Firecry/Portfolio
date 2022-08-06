@@ -28,12 +28,8 @@
     transition: .3s ease-in-out;
     border-radius: 2px 2px 0 0;
     user-select: none;
-    background-color: rgba(0, 0, 0, 0.068);
-    border-radius: 5px;
     &:hover{
         transform: translate(0, -5px);
         border-bottom: 3px solid black;
-        background-color: rgba(0, 0, 0, 0.096);
-        border-radius: 2px;
     }
 }
