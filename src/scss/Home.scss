@@ -1,4 +1,4 @@
-.home {
+.home{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,4 +13,20 @@
     font-size: 5rem;
     user-select: none;
     color: whitesmoke;
+}
+
+.title, .scrolled{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    padding-left: 10vw;
+    transition:
+        backdrop-filter .3s ease-in-out,
+        padding-left .4s ease-in-out;
+    -webkit-text-stroke: 2px;
+}
+.scrolled{
+    backdrop-filter: blur(8px);
+    padding-left: 38vw;
 }

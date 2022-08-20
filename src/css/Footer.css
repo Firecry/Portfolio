@@ -3,11 +3,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(41, 41, 41);
+  background-image: url(../assets/planet.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   font-size: 1.5rem;
   color: whitesmoke;
+}
+.footer .div {
+  background-color: rgb(41, 41, 41);
+  height: 100%;
+  width: 100%;
+  text-align: center;
 }
