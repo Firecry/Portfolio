@@ -4,34 +4,52 @@
   justify-content: center;
   height: 95vh;
   width: 100%;
-  background-image: url(../assets/planet.jpg);
-  background-color: black;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  font-size: 5rem;
+  background-color: #333;
+  color: wheat;
+  font-size: 3rem;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  color: whitesmoke;
 }
 
-.title, .scrolled {
-  width: 100%;
-  height: 95vh;
-  display: flex;
-  align-items: center;
-  padding-left: 38vw;
-  transition: padding-left 0.4s ease-in-out, -webkit-backdrop-filter 0.3s ease-in-out;
-  transition: backdrop-filter 0.3s ease-in-out, padding-left 0.4s ease-in-out;
-  transition: backdrop-filter 0.3s ease-in-out, padding-left 0.4s ease-in-out, -webkit-backdrop-filter 0.3s ease-in-out;
-  -webkit-text-stroke: 4px;
+.typing-demo {
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.1em;
+  -webkit-animation: typing 3.5s steps(29), blink-caret 0.75s step-end infinite;
+          animation: typing 3.5s steps(29), blink-caret 0.75s step-end infinite;
+  white-space: nowrap;
+  border-right: 0.15em solid;
+  background-color: black;
+  padding: 10px;
 }
 
-.scrolled {
-  -webkit-backdrop-filter: blur(4px);
-          backdrop-filter: blur(4px);
-  padding-left: 10vw;
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 1010px;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 1010px;
+  }
+}
+@-webkit-keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
+@keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
 }

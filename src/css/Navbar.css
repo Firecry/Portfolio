@@ -1,4 +1,4 @@
-.navbar {
+.navbar, .scrolled {
   width: 100%;
   position: fixed;
   top: 3;
@@ -11,19 +11,25 @@
   font-weight: 640;
   color: black;
   z-index: 10;
+  transition: background-color 0.4s ease-in-out;
 }
-.navbar .elements {
+.navbar .elements, .scrolled .elements {
   place-content: center space-between;
   align-items: center;
   flex-direction: row;
   box-sizing: border-box;
   display: flex;
 }
-.navbar .elements .margin {
+.navbar .elements .margin, .scrolled .elements .margin {
   margin-right: 3vh;
 }
 
-.border {
+.scrolled {
+  color: wheat;
+  background-color: black;
+}
+
+.border, .bordered {
   cursor: pointer;
   padding: 5px;
   border: 3px solid transparent;
@@ -34,7 +40,11 @@
       -ms-user-select: none;
           user-select: none;
 }
-.border:hover {
+.border:hover, .bordered:hover {
   transform: translate(0, -5px);
   border-bottom: 3px solid black;
+}
+
+.bordered:hover {
+  border-bottom: 3px solid wheat;
 }
