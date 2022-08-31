@@ -9,7 +9,7 @@
     padding: 20px;
     font-size: 1.5rem;
     font-weight: 640;
-    color: black;
+    color: white;
     z-index: 10;
     transition:
         background-color .4s ease-in-out;
@@ -37,7 +37,7 @@
     user-select: none;
     &:hover{
         transform: translate(0, -5px);
-        border-bottom: 3px solid black;
+        border-bottom: 3px solid white;
     }
 }
 .bordered:hover{

@@ -17,12 +17,12 @@ export default function Navbar() {
 
     return (
         <header className={isScrolled ? 'scrolled' : 'navbar'}>
-            <div className={isScrolled ? 'bordered' : 'border'}>Home</div>
+            <a href='#home'><div className={isScrolled ? 'bordered' : 'border'}>Home</div></a>
             <div className='elements'>
-                <div className={isScrolled ? 'margin bordered' : 'margin border'}>About Me</div>
-                <div className={isScrolled ? 'margin bordered' : 'margin border'}>Projects</div>
-                <div className={isScrolled ? 'margin bordered' : 'margin border'}>Hobby</div>
-                <div className={isScrolled ? 'margin bordered' : 'margin border'}>CV</div>
+                <a href='#aboutme'><div className={isScrolled ? 'margin bordered' : 'margin border'}>About Me</div></a>
+                <a href='#projects'><div className={isScrolled ? 'margin bordered' : 'margin border'}>Projects</div></a>
+                <a href='#hobby'><div className={isScrolled ? 'margin bordered' : 'margin border'}>Hobby</div></a>
+                <a href='#cv'><div className={isScrolled ? 'margin bordered' : 'margin border'}>CV</div></a>
             </div>
         </header>
     )
