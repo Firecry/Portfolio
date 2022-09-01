@@ -11,7 +11,6 @@ function App() {
     <div className='body'>
       <Navbar />
       <Home />
-      <Footer />
       <Aboutme />
       <Projects />
     </div>

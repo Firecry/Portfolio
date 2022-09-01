@@ -17,14 +17,17 @@
 .typing-demo {
   overflow: hidden;
   white-space: nowrap;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
   letter-spacing: 0.1em;
+  margin: 0 auto;
   -webkit-animation: typing 3.5s steps(29), blink-caret 0.75s step-end infinite;
           animation: typing 3.5s steps(29), blink-caret 0.75s step-end infinite;
-  white-space: nowrap;
   border-right: 0.15em solid;
   background-color: black;
   padding: 10px;
+  position: relative;
+  z-index: 5;
 }
 
 @-webkit-keyframes typing {
@@ -32,7 +35,7 @@
     width: 0;
   }
   to {
-    width: 1010px;
+    width: 55%;
   }
 }
 
@@ -41,7 +44,7 @@
     width: 0;
   }
   to {
-    width: 1010px;
+    width: 55%;
   }
 }
 @-webkit-keyframes blink-caret {
@@ -53,4 +56,47 @@
   50% {
     border-color: transparent;
   }
+}
+.name {
+  color: palevioletred;
+  margin: 0 10px;
+  z-index: 5;
+}
+
+.sun {
+  background: linear-gradient(to top, rgb(255, 135, 0), orange, rgb(255, 208, 0));
+  box-shadow: orange 0 0 100px;
+  height: 15vw;
+  width: 15vw;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 0;
+  border: 5px solid orange;
+}
+
+.hill {
+  background: linear-gradient(to top, #333, #333, white);
+  height: 30vw;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-clip-path: polygon(0 80%, 5% 60%, 10% 56%, 15% 45%, 18% 46%, 23% 30%, 30% 20%, 35% 15%, 40% 5%, 50% 0, 60% 25%, 65% 20%, 70% 35%, 75% 25%, 80% 40%, 85% 45%, 90% 65%, 95% 60%, 100% 80%, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 80%, 5% 60%, 10% 56%, 15% 45%, 18% 46%, 23% 30%, 30% 20%, 35% 15%, 40% 5%, 50% 0, 60% 25%, 65% 20%, 70% 35%, 75% 25%, 80% 40%, 85% 45%, 90% 65%, 95% 60%, 100% 80%, 100% 0, 100% 100%, 0 100%);
+  z-index: 3;
+}
+
+.hillShadow {
+  background-color: white;
+  height: 30vw;
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  -webkit-clip-path: polygon(0 80%, 5% 60%, 10% 56%, 15% 45%, 18% 46%, 23% 30%, 30% 20%, 35% 15%, 40% 5%, 50% 0, 60% 25%, 65% 20%, 70% 35%, 75% 25%, 80% 40%, 85% 45%, 90% 65%, 95% 60%, 100% 80%, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 80%, 5% 60%, 10% 56%, 15% 45%, 18% 46%, 23% 30%, 30% 20%, 35% 15%, 40% 5%, 50% 0, 60% 25%, 65% 20%, 70% 35%, 75% 25%, 80% 40%, 85% 45%, 90% 65%, 95% 60%, 100% 80%, 100% 0, 100% 100%, 0 100%);
+  z-index: 2;
 }
