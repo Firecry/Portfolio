@@ -14,13 +14,14 @@ export default function Home() {
 
     return (
         <div className='home' id='home'>
-            <div className='sun' style={{ transform: `translate(${offsetY * .8}px, ${-offsetY * .3}px)` }}></div>
+            <div className='sun' style={{ transform: `translate(${offsetY * .5}px, ${-offsetY * .3}px)` }}></div>
             <div className='cloud1'></div>
             <div className='cloud2'></div>
-            <div className='hill'></div>
-            <div className='hillShadow'></div>
+            <div className='hillShadow'>
+                <div className='hill'></div>
+            </div>
             <div className='typing-layout'>
-                <div className='typing-demo'>Hello I'm <div className='name'> Simon </div> Web Developer.</div>
+                <div className='typing-demo'>Hello I'm <div className='name'>Simon</div> Web Developer.</div>
             </div>
         </div>
     )
