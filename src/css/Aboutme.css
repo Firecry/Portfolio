@@ -2,14 +2,12 @@
   display: flex;
   height: 100vh;
   color: whitesmoke;
-  background-color: #333;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background: #333;
   font-size: 5rem;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+  position: relative;
+  z-index: 5;
 }

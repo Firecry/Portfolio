@@ -1,6 +1,8 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
+  background: linear-gradient(to top, #040308, #AD4A28, #DD723C, #FC7001, #DCB697, #9BA5AE, #3E5879, #020B1A);
+  background-attachment: fixed;
 }
 
 ::-webkit-scrollbar {

@@ -2,6 +2,8 @@ import '../css/Projects.css'
 
 export default function Projects() {
     return(
-        <div></div>
+        <div className='projects' id="projects">
+            
+        </div>
     )
 }
