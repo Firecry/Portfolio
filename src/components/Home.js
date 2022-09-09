@@ -14,7 +14,7 @@ export default function Home() {
 
     return (
         <div className='home' id='home'>
-            <div className='sun' style={{ transform: `translate(${offsetY * .5}px, ${-offsetY * .3}px)` }}></div>
+            <div className='sun' style={{ transform: `translate(${offsetY * .5}px, ${-offsetY * .1}px)` }}></div>
 
             <div className='hill' style={{ transform: `translateY(${offsetY * .2}px)` }}></div>
 

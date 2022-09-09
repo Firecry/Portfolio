@@ -2,7 +2,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  height: 100vh;
+  height: 140vh;
   width: 100%;
   color: wheat;
   font-size: 3rem;
@@ -63,13 +63,13 @@
 }
 
 .sun {
-  background: linear-gradient(to top, rgb(255, 135, 0), orange, rgb(255, 208, 0));
+  background: radial-gradient(circle, rgb(255, 135, 0), orange, rgb(255, 208, 0));
   box-shadow: orange 0 0 100px;
   height: 20vw;
   width: 20vw;
   position: absolute;
   top: 50%;
-  left: -5%;
+  left: 10%;
   transform: translate(-50%, -50%);
   border-radius: 50%;
   z-index: 0;
@@ -77,10 +77,10 @@
 }
 
 .hill {
-  height: 75vw;
+  height: 85vw;
   width: 100%;
   position: absolute;
-  bottom: 0;
+  top: -35%;
   left: 0;
   z-index: 3;
   background-image: url(../assets/hill.png);
@@ -89,10 +89,10 @@
 }
 
 .forest {
-  height: 75vw;
+  height: 85vw;
   width: 100%;
   position: absolute;
-  bottom: 0;
+  top: -30%;
   left: 0;
   background-image: url(../assets/forest.png);
   background-repeat: no-repeat;
