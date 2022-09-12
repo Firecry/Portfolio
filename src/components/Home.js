@@ -14,6 +14,11 @@ export default function Home() {
 
     return (
         <div className='home' id='home'>
+
+            <div className='typing-layout'>
+                <div className='typing-demo'>Welcome! I'm <div className='name'>Simon</div> Web Developer.</div>
+            </div>
+
             <div className='sun' style={{ transform: `translate(${offsetY * .5}px, ${-offsetY * .1}px)` }}></div>
 
             <div className='hill' style={{ transform: `translateY(${offsetY * .2}px)` }}></div>
@@ -21,10 +26,6 @@ export default function Home() {
             <div className='clouds'></div>
 
             <div className='forest' style={{ transform: `translateY(${offsetY * .4}px)` }}></div>
-
-            <div className='typing-layout'>
-                <div className='typing-demo'>Welcome! I'm <div className='name'>Simon</div> Web Developer.</div>
-            </div>
         </div>
     )
 }

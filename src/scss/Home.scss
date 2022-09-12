@@ -4,7 +4,7 @@
     justify-content: center;
     height: 140vh;
     width: 100%;
-    color: wheat;
+    color: #006BC4;
     font-size: 3rem;
     user-select: none;
     font-weight: 700;
@@ -23,6 +23,7 @@
     border-right: .15em solid;
     padding: 10px;
     position: relative;
+    top: -85vh;
     z-index: 5;
     -webkit-text-stroke: 2px black;
 }
@@ -35,7 +36,7 @@
     50% { border-color: transparent }
 }
 .name{
-    color: palevioletred;
+    color: #007E6A;
     margin: 0 10px;
     z-index: 5;
 }
