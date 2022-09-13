@@ -2,9 +2,28 @@
     display: flex;
     height: 100vh;
     color: whitesmoke;
-    background: #333;
+    background: linear-gradient(to top, #010001, #010001, #010001, #01000100);
     font-size: 5rem;
     user-select: none;
     position: relative;
     z-index: 5;
+}
+
+.description{
+    background-color: aqua;
+    width: 70%;
+    padding: 20px 0px;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.photo{
+    // background-image: url(../assets/photo.png);
+    background-color: red;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30%;
+    margin-top: 90px;
+    text-align: center;
+
 }
