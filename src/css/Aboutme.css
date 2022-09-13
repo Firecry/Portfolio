@@ -2,7 +2,7 @@
   display: flex;
   height: 100vh;
   color: whitesmoke;
-  background: linear-gradient(to top, #010001, #010001, #010001, rgba(1, 0, 1, 0));
+  background: linear-gradient(to top, #010001, #010001, #010001, #010001, #010001, rgba(1, 0, 1, 0));
   font-size: 5rem;
   -webkit-user-select: none;
      -moz-user-select: none;
