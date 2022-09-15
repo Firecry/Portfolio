@@ -10,27 +10,33 @@
     font-weight: 700;
 }
 
+.container{
+    width: 100%;
+    position: fixed;
+    top: 28vh;
+    left: 0;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+}
+
 .typing-demo{
-    width: auto;
     overflow: hidden;
     white-space: nowrap;
     display: flex;
     flex-direction: row;
     margin: 100px auto;
     animation:
-        typing 2.5s steps(33),
+        typing 2.5s steps(33) forwards,
         blink-caret .75s step-end infinite;
     border-right: .15em solid;
     padding: 10px;
-    position: relative;
-    top: -105vh;
-    z-index: 5;
     -webkit-text-stroke: 2px black;
 }
 
 @keyframes typing{
     from { width: 0 }
-    to { width: 100%; }
+    to { width: 53%; }
 }
 @keyframes blink-caret{
     50% { border-color: transparent }
@@ -74,5 +80,21 @@
     background-image: url(../assets/forest.png);
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 4;
+    z-index: 5;
+}
+.clouds{
+    width: 100%;
+    height: 85vh;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    background-image: url(../assets/clouds.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+    animation: clouds 1s infinite alternate ease-in-out;
+}
+@keyframes clouds{
+    from { top: 0 }
+    to { top: 20px; }
 }

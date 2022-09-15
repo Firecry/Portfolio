@@ -13,6 +13,7 @@ function App() {
       <Home />
       <Aboutme />
       <Projects />
+      <Footer />
     </div>
   );
 }
