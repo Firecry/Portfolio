@@ -1,5 +1,7 @@
 import '../css/Home.css'
 import React, { useState, useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Home() {
 
@@ -15,8 +17,30 @@ export default function Home() {
     return (
         <div className='home' id='home'>
 
-            <div className='container'>
-                <div className='typing-demo' style={{ transform: `translateY(${-offsetY * .1}px)` }}>Welcome! I'm <div className='name'>Simon</div> Web Developer.</div>
+            <div className='container' style={{ transform: `translateY(${offsetY * .6}px` }}>
+                <div 
+                    className='typing-demo'
+                    data-aos='fade-right'
+                    data-aos-duration="2000"
+                    data-aos-anchor-placement="top-bottom"
+                >
+                    Welcome!
+                </div>
+                <div
+                    className='name'
+                    data-aos='fade-right'
+                    data-aos-duration="2500"
+                >
+                    I'm Simon
+                </div>
+                <div 
+                    className='typing-demo'
+                    data-aos='fade-right'
+                    data-aos-duration="3000"
+                    style={{ margin: `0 60px 0 0` }}
+                >
+                    Web Developer
+                </div>
             </div>
 
             <div className='sun' style={{ transform: `translate(${offsetY * .5}px, ${-offsetY * .1}px)` }}></div>
