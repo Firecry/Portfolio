@@ -13,20 +13,33 @@
   z-index: 10;
   transition: background-color 0.4s ease-in-out;
 }
-.navbar .elements, .scrolled .elements {
+.navbar .material-symbols-outlined, .scrolled .material-symbols-outlined {
+  font-size: 1.6rem;
+  transform: translateY(4px);
+  margin-right: 2px;
+  transition: 0.3s ease-in-out;
+  font-variation-settings: "FILL" 0, "opsz" 48;
+}
+
+.elements {
   place-content: center space-between;
   align-items: center;
   flex-direction: row;
   box-sizing: border-box;
   display: flex;
 }
-.navbar .elements .margin, .scrolled .elements .margin {
+.elements .margin {
   margin-right: 3vh;
 }
 
 .scrolled {
   color: wheat;
   background-color: #010001;
+}
+.scrolled .material-symbols-outlined {
+  background-color: transparent;
+  color: wheat;
+  font-variation-settings: "FILL" 1;
 }
 
 .border, .bordered {

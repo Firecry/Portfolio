@@ -31,13 +31,13 @@ export default function Home() {
                     data-aos='fade-right'
                     data-aos-duration="2500"
                 >
-                    I'm Simon
+                    I'm Szymon
                 </div>
                 <div 
                     className='typing-demo'
                     data-aos='fade-right'
                     data-aos-duration="3000"
-                    style={{ margin: `0 60px 0 0` }}
+                    style={{ margin: `0 0 0 60px` }}
                 >
                     Web Developer
                 </div>
