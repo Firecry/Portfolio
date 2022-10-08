@@ -5,48 +5,28 @@
   height: 160vh;
   width: 100%;
   color: #364B44;
-  font-size: 3rem;
+  font-size: 16rem;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
   font-weight: 700;
+  -webkit-text-stroke: 10px black;
 }
 
 .container {
   position: absolute;
-  top: 35vh;
-  left: 20%;
+  width: 100%;
+  top: 0;
+  left: 0;
   z-index: 4;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
 }
-
-.typing-demo {
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  padding: 10px 40px;
-  -webkit-text-stroke: 2px black;
-  background-color: rgba(54, 75, 68, 0.1764705882);
-  -webkit-backdrop-filter: blur(4px);
-          backdrop-filter: blur(4px);
-  border-radius: 5px;
-  border: 2px solid black;
-}
-
-.name {
+.container .name {
   color: #007E6A;
-  z-index: 5;
-  -webkit-text-stroke: 2px black;
-  padding: 10px 40px;
-  background-color: rgba(54, 75, 68, 0.1764705882);
-  margin: 10px 0 10px 30px;
-  -webkit-backdrop-filter: blur(4px);
-          backdrop-filter: blur(4px);
-  border-radius: 5px;
-  border: 2px solid black;
 }
 
 .sun {

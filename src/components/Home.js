@@ -1,6 +1,5 @@
 import '../css/Home.css'
 import React, { useState, useEffect } from 'react';
-import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 export default function Home() {
@@ -18,28 +17,19 @@ export default function Home() {
         <div className='home' id='home'>
 
             <div className='container' style={{ transform: `translateY(${offsetY * .6}px` }}>
-                <div 
-                    className='typing-demo'
-                    data-aos='fade-right'
-                    data-aos-duration="2000"
+                <div
+                    data-aos='fade-up'
+                    data-aos-duration="1500"
                     data-aos-anchor-placement="top-bottom"
                 >
                     Welcome!
                 </div>
                 <div
                     className='name'
-                    data-aos='fade-right'
+                    data-aos='fade-up'
                     data-aos-duration="2500"
                 >
                     I'm Szymon
-                </div>
-                <div 
-                    className='typing-demo'
-                    data-aos='fade-right'
-                    data-aos-duration="3000"
-                    style={{ margin: `0 0 0 60px` }}
-                >
-                    Web Developer
                 </div>
             </div>
 
