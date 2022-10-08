@@ -34,7 +34,7 @@
 
 .scrolled {
   color: wheat;
-  background-color: #010001;
+  background-color: rgba(1, 0, 1, 0.8156862745);
 }
 .scrolled .material-symbols-outlined {
   background-color: transparent;

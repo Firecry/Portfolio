@@ -16,7 +16,7 @@ export default function Home() {
     return (
         <div className='home' id='home'>
 
-            <div className='container' style={{ transform: `translateY(${offsetY * .6}px` }}>
+            <div className='container' style={{ transform: `translateY(${offsetY * .7}px` }}>
                 <div
                     data-aos='fade-up'
                     data-aos-duration="1500"
