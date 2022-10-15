@@ -17,16 +17,13 @@
 .container {
   position: absolute;
   width: 100%;
-  top: 0;
+  top: 30vh;
   left: 0;
   z-index: 4;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-}
-.container .name {
-  color: #007E6A;
 }
 
 .sun {

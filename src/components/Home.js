@@ -24,13 +24,6 @@ export default function Home() {
                 >
                     Welcome!
                 </div>
-                <div
-                    className='name'
-                    data-aos='fade-up'
-                    data-aos-duration="2500"
-                >
-                    I'm Szymon
-                </div>
             </div>
 
             <div className='sun' style={{ transform: `translate(${offsetY * .5}px, ${-offsetY * .1}px)` }}></div>
