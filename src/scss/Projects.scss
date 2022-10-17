@@ -9,6 +9,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     font-weight: 500;
+    background-attachment: fixed;
 
     .box{
         width: 100%;
@@ -68,7 +69,7 @@
         padding-top: 10px;
         &:hover{
             box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-            transform: translateY(-10px);
+            transform: translateY(-5px);
             filter: brightness(60%);
         }
     }
