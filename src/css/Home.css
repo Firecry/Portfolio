@@ -4,7 +4,7 @@
   justify-content: center;
   height: 160vh;
   width: 100%;
-  color: #364B44;
+  color: #184639;
   font-size: 14rem;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -65,33 +65,33 @@
 }
 
 .clouds {
-  width: 100%;
-  height: 85vh;
+  width: 300%;
+  height: 145vh;
   position: absolute;
   top: 10%;
   left: 0;
   background-image: url(../assets/clouds.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat-x;
+  background-size: contain;
   z-index: 2;
-  -webkit-animation: clouds 2s infinite alternate ease-in-out;
-          animation: clouds 2s infinite alternate ease-in-out;
+  -webkit-animation: clouds 30s infinite alternate ease-in-out;
+          animation: clouds 30s infinite alternate ease-in-out;
 }
 
 @-webkit-keyframes clouds {
-  from {
-    top: 0;
+  0% {
+    transform: translate3d(0, 0, 0);
   }
-  to {
-    top: 20px;
+  100% {
+    transform: translate3d(-50%, 0, 0);
   }
 }
 
 @keyframes clouds {
-  from {
-    top: 0;
+  0% {
+    transform: translate3d(0, 0, 0);
   }
-  to {
-    top: 20px;
+  100% {
+    transform: translate3d(-50%, 0, 0);
   }
 }

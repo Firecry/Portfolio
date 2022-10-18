@@ -3,7 +3,8 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Footer from './components/Footer';
 import Aboutme from './components/Aboutme';
-import Projects from './components/Projects'
+import Projects from './components/Projects';
+import Hobby from './components/Hobby'
 import './css/App.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Home />
       <Aboutme />
       <Projects />
+      <Hobby />
       <Footer />
     </div>
   );

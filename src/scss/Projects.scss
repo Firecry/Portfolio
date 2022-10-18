@@ -1,76 +1,98 @@
 .projects {
     height: 100vh;
-    background-color: #010001;
     font-size: 2rem;
     user-select: none;
-    z-index: 10;
     background-color: #005547;
-    background: url(../assets/blueprint.jpg);
+    background: #005B60;
     background-repeat: no-repeat;
     background-size: cover;
     font-weight: 500;
-    background-attachment: fixed;
-
-    .box{
-        width: 100%;
-        height: 70vh;
+    position: relative;
+    color: wheat;
+    .project-flex{
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
-        gap: 80px;
-        .project-items{
-            z-index: 11;
-            width: 300px;
-            height: 450px;
-            background: transparent;
-            transition: .3s ease-in-out;
-            border: 5px solid black;
-            border-radius: 5px;
-            box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.514), 4px 0px 5px rgba(0, 0, 0, 0.514);
-            text-align: center;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-color: #f6f7f6;
-            cursor: pointer;
-            &:hover{
-                box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-                transform: translateY(-20px);
-                filter: brightness(60%) grayscale(100%) blur(1px);
+        justify-content: center;
+        gap: 5vh;
+        .box{
+            margin-top: 30vh;
+            background-color: #184639;
+            border: 3px solid #081813;
+            border-radius: 2px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+            width: 65%;
+            height: 30vh;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            z-index: 9;
+            .project-items{
+                width: 200px;
+                height: 200px;
+                margin: 15px auto;
+                z-index: 9;
+                background: wheat;
+                transition: .3s ease-in-out;
+                border: 5px solid black;
+                border-radius: 5px;
+                box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.514), 4px 0px 5px rgba(0, 0, 0, 0.514);
+                background-repeat: no-repeat;
+                background-position: center;
+                cursor: pointer;
+                background-size: calc(100% - 40px);
+                &:hover{
+                    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+                    transform: translateY(-20px);
+                    filter: brightness(60%);
+                }
+            }
+            .project-text{
+                height: 50px;
+                z-index: 9;
+                // background-color: red;
+            }
+            .grid-element{
+                display: flex;
+                justify-content: center;
+            }
+            .clicker-game{
+                background-image: url(../assets/icons/pickaxe.png);
+            }
+            .calculator{
+                background-image: url(../assets/icons/calc.png);
+            }
+            .arm-wresling{
+                background-image: url(../assets/icons/arm.png);
+            }
+            .to-do-list{
+                background-image: url(../assets/icons/todo.png);
             }
         }
-        .clicker-game{
-            background-image: url(../assets/icons/pickaxe.png);
-            background-size: calc(100% - 40px);
-        }
-        .calculator{
-            background-image: url(../assets/icons/calc.png);
-            background-size: calc(100% - 60px);
-        }
-        .arm-wresling{
-            background-image: url(../assets/icons/arm.jpg);
-        }
-        .to-do-list{
-            background-image: url(../assets/icons/todo.png);
-            background-size: calc(100% - 40px);
-        }
-    }
-    .seemore{
-        width: 80%;
-        height: 5vh;
-        background-color: #f6f7f6;
-        margin: auto;
-        border-radius: 5px;
-        font-size: 1.5rem;
-        border: 5px solid black;
-        cursor: pointer;
-        box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.514), 4px 0px 5px rgba(0, 0, 0, 0.514);
-        transition: .3s ease-in-out;
-        text-align: center;
-        padding-top: 10px;
-        &:hover{
-            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-            transform: translateY(-5px);
-            filter: brightness(60%);
+        .seemore{
+            width: 65%;
+            height: 5vh;
+            background-color: #000000;
+            margin: auto;
+            border-radius: 5px;
+            font-size: 1.5rem;
+            border: 5px solid black;
+            cursor: pointer;
+            box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.514), 4px 0px 5px rgba(0, 0, 0, 0.514);
+            transition: .3s ease-in-out;
+            text-align: center;
+            padding-top: 10px;
+            z-index: 9;
+            position: inherit;
+            &:hover{
+                box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+                transform: translateY(-5px);
+                filter: brightness(60%);
+            }
+            a{
+                height: 100%;
+                width: 100%;
+            }
         }
     }
 }
