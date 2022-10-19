@@ -1,4 +1,5 @@
 import '../css/Projects.css'
+import 'aos/dist/aos.css';
 
 export default function Projects() {
     return(

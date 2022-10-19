@@ -11,7 +11,6 @@
   background-size: cover;
   font-weight: 500;
   position: relative;
-  color: wheat;
 }
 .projects .project-flex {
   display: flex;
@@ -22,10 +21,7 @@
 }
 .projects .project-flex .box {
   margin-top: 30vh;
-  background-color: #184639;
-  border: 3px solid #081813;
   border-radius: 2px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   width: 65%;
   height: 30vh;
   display: grid;
@@ -34,11 +30,10 @@
   z-index: 9;
 }
 .projects .project-flex .box .project-items {
-  width: 200px;
+  width: 250px;
   height: 200px;
   margin: 15px auto;
   z-index: 9;
-  background: wheat;
   transition: 0.3s ease-in-out;
   border: 5px solid black;
   border-radius: 5px;
@@ -46,11 +41,14 @@
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
-  background-size: calc(100% - 40px);
+  background-size: calc(100% - 70px);
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.02);
 }
 .projects .project-flex .box .project-items:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  transform: translateY(-20px);
+  background-color: rgba(255, 255, 255, 0.24);
+  transform: translateY(-10px);
   filter: brightness(60%);
 }
 .projects .project-flex .box .project-text {
@@ -74,6 +72,7 @@
   background-image: url(../assets/icons/todo.png);
 }
 .projects .project-flex .seemore {
+  color: wheat;
   width: 65%;
   height: 5vh;
   background-color: #000000;
