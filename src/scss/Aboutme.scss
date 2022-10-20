@@ -3,7 +3,6 @@
     height: 100vh;
     color: whitesmoke;
     background: linear-gradient(to top, #010001, #010001, #010001, #010001, #010001, #01000100);
-    // background-color: #010001;
     font-size: 2.5rem;
     position: relative;
     flex-direction: column;
@@ -47,7 +46,6 @@
     height: 50vh;
     margin-top: 90px;
     text-align: center;
-    // clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     clip-path: ellipse(100% 80% at 100% 50%);
     position: absolute;
     right: 5%;

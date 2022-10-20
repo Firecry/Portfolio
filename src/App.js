@@ -11,10 +11,10 @@ function App() {
   return (
     <div className='body'>
       <Navbar />
-      <Home />
-      <Aboutme />
-      <Projects />
-      <Hobby />
+        <Home />
+        <Aboutme />
+        <Projects />
+        <Hobby />
       <Footer />
     </div>
   );

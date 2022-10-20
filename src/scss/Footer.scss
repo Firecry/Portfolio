@@ -1,24 +1,36 @@
 .footer{
     width: 100%;
     height: 5vh;
-    // background-color: blue;
     position: fixed;
     bottom: 0;
     left: 0;
     display: flex;
     flex-direction: row;
+    justify-content: right;
     z-index: 5;
-    .github{
-        background-image: url(../assets/icons/github.png);
+    user-select: none;
+    .footer-items{
         background-repeat: no-repeat;
         background-size: contain;
         height: 4vh;
         width: 4vh;
-        margin-left: 1vh;
+        margin-right: 1vh;
         cursor: pointer;
         transition: transform .3s ease-in-out;
         &:hover{
-            transform: translateY(-10px);
+            transform: translateY(-15px) rotate(-20deg) scale(1.5);
         }
+    }
+    .github{
+        background-image: url(../assets/icons/github.png);
+    }
+    .instagram{
+        background-image: url(../assets/icons/instagram.png);
+    }
+    .mail{
+        background-image: url(../assets/icons/mail.png);
+    }
+    .facebook{
+        background-image: url(../assets/icons/facebook.png);
     }
 }
