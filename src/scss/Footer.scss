@@ -14,11 +14,11 @@
         background-size: contain;
         height: 4vh;
         width: 4vh;
-        margin-right: 1vh;
+        margin-right: 1.5vh;
         cursor: pointer;
         transition: transform .3s ease-in-out;
         &:hover{
-            transform: translateY(-15px) rotate(-20deg) scale(1.5);
+            transform: translateY(-15px) rotate(-10deg) scale(1.2);
         }
     }
     .github{

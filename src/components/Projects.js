@@ -11,19 +11,19 @@ export default function Projects() {
             </div>
             <div className='project-flex'>
                 <div className='box'>
-                    <a href='https://github.com/Firecry/Simple-Clicker' target="_blank" rel="noreferrer"
+                    <a href='https://money-clicker-73c52d.netlify.app' target="_blank" rel="noreferrer"
                         className='project-items grid-element clicker-game'
                     ><div></div></a>
 
-                    <a href='https://github.com/Firecry/Calculator' target="_blank" rel="noreferrer"
+                    <a href='https://js-calculator-ee022d.netlify.app' target="_blank" rel="noreferrer"
                         className='project-items grid-element calculator'
                     ><div></div></a>
 
-                    <a href='https://github.com/Firecry/ArmWreslingGame' target="_blank" rel="noreferrer"
+                    <a href='https://arm-wresling-f9c5a3.netlify.app' target="_blank" rel="noreferrer"
                         className='project-items grid-element arm-wresling'
                     ><div></div></a>
 
-                    <a href='https://github.com/Firecry/To-do-list' target="_blank" rel="noreferrer"
+                    <a href='https://to-do-list-5c3e51.netlify.app' target="_blank" rel="noreferrer"
                         className='project-items grid-element to-do-list'
                     ><div></div></a>
                     <div className='project-text grid-element'>Clicker Game</div>
