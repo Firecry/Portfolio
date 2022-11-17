@@ -3,7 +3,7 @@
   height: 100vh;
   color: whitesmoke;
   background: linear-gradient(to top, #010001, #010001, #010001, #010001, #010001, rgba(1, 0, 1, 0));
-  font-size: 2.5rem;
+  font-size: 2.4vw;
   position: relative;
   flex-direction: column;
   z-index: 5;
@@ -11,7 +11,6 @@
 
 .title {
   width: 70%;
-  padding: 20px 0px;
   margin-top: 90px;
   text-align: center;
 }
@@ -20,14 +19,18 @@
   text-underline-offset: 10px;
 }
 .title h1 .material-symbols-outlined {
-  font-size: 2.5rem;
+  font-size: 2.5vw;
   margin-left: 10px;
   font-variation-settings: "FILL" 1, "opsz" 48;
 }
 
 .description {
   width: 70%;
-  height: 100%;
+  height: auto;
+  padding: 20px 0;
+  z-index: 7;
+  background-color: rgba(0, 0, 0, 0.438);
+  border-radius: 10px;
 }
 .description p {
   text-align: justify;
@@ -41,9 +44,8 @@
   background-repeat: no-repeat;
   background-size: 130%;
   background-position: center;
-  width: 20%;
-  height: 50vh;
-  margin-top: 90px;
+  width: 450px;
+  height: 600px;
   text-align: center;
   -webkit-clip-path: ellipse(100% 80% at 100% 50%);
           clip-path: ellipse(100% 80% at 100% 50%);

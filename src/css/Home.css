@@ -5,13 +5,14 @@
   height: 160vh;
   width: 100%;
   color: #184639;
-  font-size: 14rem;
+  font-size: 14vw;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
   font-weight: 700;
-  -webkit-text-stroke: 10px black;
+  -webkit-text-stroke: 0.5vw black;
+  background: linear-gradient(to top, #010001, rgba(1, 0, 1, 0), rgba(1, 0, 1, 0), rgba(1, 0, 1, 0), rgba(1, 0, 1, 0), rgba(1, 0, 1, 0), rgba(1, 0, 1, 0));
 }
 
 .container {
@@ -32,7 +33,7 @@
   height: 20vw;
   width: 20vw;
   position: absolute;
-  top: 50%;
+  bottom: 20%;
   left: 10%;
   transform: translate(-50%, -50%);
   border-radius: 50%;
@@ -41,10 +42,10 @@
 }
 
 .hill {
-  height: 85vw;
+  height: 95vw;
   width: 100%;
   position: absolute;
-  top: -35%;
+  bottom: -45%;
   left: 0;
   z-index: 3;
   background-image: url(../assets/hill.png);
@@ -56,7 +57,7 @@
   height: 85vw;
   width: 100%;
   position: absolute;
-  top: -30%;
+  bottom: -40%;
   left: 0;
   background-image: url(../assets/forest.png);
   background-repeat: no-repeat;
