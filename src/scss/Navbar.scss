@@ -1,4 +1,4 @@
-.navbar, .scrolled {
+#navbar, #scrolled {
     width: 100%;
     position: fixed;
     top: 3;
@@ -6,16 +6,16 @@
     flex-direction: row;
     box-sizing: border-box;
     place-content: center space-between;
-    padding: 20px;
-    font-size: 1.5rem;
+    padding: 1.8vw;
+    font-size: 1.5vw;
     font-weight: 640;
     color: white;
     z-index: 10;
     transition:
         background-color .4s ease-in-out;
     .material-symbols-outlined{
-        font-size: 1.6rem;
-        transform: translateY(4px);
+        font-size: 1.5vw;
+        transform: translateY(.2vw);
         margin-right: 2px;
         transition: .3s ease-in-out;
         font-variation-settings:
@@ -30,11 +30,11 @@
         box-sizing: border-box;
         display: flex;
         .margin{
-            margin-right: 3vh;
+            margin-right: 1.5vw;
         }
     }
 
-.scrolled{
+#scrolled{
     color: wheat;
     background-color: #010001d0;
     .material-symbols-outlined{
@@ -47,16 +47,26 @@
 }
 .border, .bordered{
     cursor: pointer;
-    padding: 5px;
-    border: 3px solid transparent;
+    padding: .2vw;
+    border: .2vw solid transparent;
     transition: .3s ease-in-out;
     border-radius: 2px 2px 0 0;
     user-select: none;
     &:hover{
         transform: translate(0, -5px);
-        border-bottom: 3px solid white;
+        border-bottom: .2vw solid white;
     }
 }
 .bordered:hover{
-    border-bottom: 3px solid wheat;
+    border-bottom: .2vw solid wheat;
 }
+
+ #underline{
+    position: absolute;
+    background-color: red;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    top: 4.5vw;
+    transition: .5s ease;
+ }

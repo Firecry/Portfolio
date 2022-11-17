@@ -12,7 +12,7 @@ export default function Aboutme() {
                 data-aos='fade-right'
                 data-aos-duration="1500"
             >
-                <h1>Szymon Smolorz<div class="material-symbols-outlined">waving_handwaving_hand</div></h1>
+                <h1>Szymon Smolorz<div className="material-symbols-outlined">waving_handwaving_hand</div></h1>
             </div>
                 <div
                     className='description'
