@@ -6,7 +6,7 @@
     flex-direction: row;
     box-sizing: border-box;
     place-content: center space-between;
-    padding: 1.8vw;
+    padding: 1vw;
     font-size: 1.5vw;
     font-weight: 640;
     color: white;
@@ -60,13 +60,3 @@
 .bordered:hover{
     border-bottom: .2vw solid wheat;
 }
-
- #underline{
-    position: absolute;
-    background-color: red;
-    height: 3px;
-    width: 100%;
-    left: 0;
-    top: 4.5vw;
-    transition: .5s ease;
- }

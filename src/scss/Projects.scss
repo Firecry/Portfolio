@@ -6,7 +6,7 @@
     background: #005B60;
     background-repeat: no-repeat;
     background-size: cover;
-    font-weight: 500;
+    font-weight: 640;
     position: relative;
     .project-flex{
         display: flex;
@@ -17,7 +17,7 @@
         .box{
             margin-top: 11vw;
             width: 80%;
-            height: 20vw;
+            height: 18vw;
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             grid-template-rows: repeat(2, 1fr);

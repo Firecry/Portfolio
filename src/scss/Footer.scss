@@ -9,12 +9,12 @@
     justify-content: right;
     z-index: 5;
     user-select: none;
+    gap: .7vw;
     .footer-items{
         background-repeat: no-repeat;
         background-size: contain;
-        height: 4vh;
-        width: 4vh;
-        margin-right: 1.5vh;
+        height: 2vw;
+        width: 2vw;
         cursor: pointer;
         transition: transform .3s ease-in-out;
         &:hover{
@@ -29,6 +29,7 @@
     }
     .mail{
         background-image: url(../assets/icons/mail.png);
+        margin-right: 1vw;
     }
     .facebook{
         background-image: url(../assets/icons/facebook.png);

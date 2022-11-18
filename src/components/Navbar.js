@@ -15,23 +15,8 @@ export default function Navbar() {
         }
     })
 
-    // useEffect(() => {
-    //     const underline = document.getElementById('underline')
-    //     const menu = document.getElementById('navbar')
-
-    //     menu.addEventListener('click', e)
-
-    //     if (e.target.nodeName === 'A') {
-    //         underline.style.left = e.target.offsetLeft + 'px';
-    //         underline.style.width = e.target.offsetWidth + 'px';
-    //     }
-    // })
-
-        
-
     return (
         <header id={isScrolled ? 'scrolled' : 'navbar'}>
-            {/* <div id='underline'></div> */}
             <a href='#home'><div className={isScrolled ? 'bordered' : 'border'}>
             <div className="material-symbols-outlined">house</div>
                 Home
