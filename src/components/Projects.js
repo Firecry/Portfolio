@@ -11,25 +11,30 @@ export default function Projects() {
             </div>
             <div className='project-flex'>
                 <div className='box'>
-                    <a href='https://money-clicker-73c52d.netlify.app' target="_blank" rel="noreferrer"
-                        className='project-items grid-element clicker-game'
-                    ><div></div></a>
-
-                    <a href='https://js-calculator-ee022d.netlify.app' target="_blank" rel="noreferrer"
-                        className='project-items grid-element calculator'
-                    ><div></div></a>
-
-                    <a href='https://arm-wresling-f9c5a3.netlify.app' target="_blank" rel="noreferrer"
-                        className='project-items grid-element arm-wresling'
-                    ><div></div></a>
-
-                    <a href='https://to-do-list-5c3e51.netlify.app' target="_blank" rel="noreferrer"
-                        className='project-items grid-element to-do-list'
-                    ><div></div></a>
-                    <div className='project-text grid-element'>Clicker Game</div>
-                    <div className='project-text grid-element'>RGB Calculator</div>
-                    <div className='project-text grid-element'>Arm Wresling Game</div>
-                    <div className='project-text grid-element'>To Do List</div>
+                    <div>
+                        <a href='https://money-clicker-73c52d.netlify.app' target="_blank" rel="noreferrer"
+                            className='project-items clicker-game'
+                        ><div></div></a>
+                        <div className='project-text'>Clicker Game</div>
+                    </div>
+                    <div>
+                        <a href='https://js-calculator-ee022d.netlify.app' target="_blank" rel="noreferrer"
+                            className='project-items calculator'
+                        ><div></div></a>
+                        <div className='project-text'>RGB Calculator</div>
+                    </div>
+                    <div>
+                        <a href='https://arm-wresling-f9c5a3.netlify.app' target="_blank" rel="noreferrer"
+                            className='project-items arm-wresling'
+                        ><div></div></a>
+                        <div className='project-text'>Arm Wresling Game</div>
+                    </div>
+                    <div>
+                        <a href='https://to-do-list-5c3e51.netlify.app' target="_blank" rel="noreferrer"
+                            className='project-items to-do-list'
+                        ><div></div></a>
+                        <div className='project-text'>To Do List</div>
+                    </div>
                 </div>
                     <div className='seemore'>
                         <a href='https://github.com/Firecry?tab=repositories' target='_blank' rel="noreferrer"><div>Show Me More!</div></a>
