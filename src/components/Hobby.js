@@ -29,7 +29,7 @@ export default function Hobbys() {
                     data-aos-delay="300"
                 >
                     <div className='hobbysUp bicycle'></div>
-                    <div className='hobbysDown'>Bicycle</div>
+                    <div className='hobbysDown'>Cycling</div>
                 </div>
                 <div
                     className='hobbys'

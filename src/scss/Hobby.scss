@@ -11,15 +11,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 4vw;
     height: 80vh;
-    position: inherit;
+    width: 100%;
     flex-wrap: wrap;
+    gap: 100px;
 }
 .hobbys{
     background-color: black;
-    width: 20vw;
-    height: 15vw;
+    width: 350px;
+    height: 250px;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     .hobbysUp{
@@ -31,8 +31,21 @@
     }
     .hobbysDown{
         width: 100%;
-        padding-top: 1vw;
+        padding-top: 5px;
         text-align: center;
+    }
+}
+@media only screen and (max-width: 900px){
+    .containerHobby{
+        height: 75vh;
+        justify-content: center;
+        width: auto;
+        gap: 10px;
+    }
+    .hobbys{
+        width: 300px;
+        height: 150px;
+        font-size: 1.5rem;
     }
 }
 .gym{

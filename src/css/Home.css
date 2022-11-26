@@ -4,6 +4,7 @@
   justify-content: center;
   height: 160vh;
   width: 100%;
+  position: relative;
   color: #184639;
   font-size: 14vw;
   -webkit-user-select: none;
@@ -12,7 +13,6 @@
           user-select: none;
   font-weight: 700;
   -webkit-text-stroke: 0.5vw black;
-  background: linear-gradient(to top, #010001, rgba(1, 0, 1, 0), rgba(1, 0, 1, 0), rgba(1, 0, 1, 0), rgba(1, 0, 1, 0), rgba(1, 0, 1, 0), rgba(1, 0, 1, 0));
 }
 
 .container {
@@ -25,6 +25,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .sun {
@@ -33,8 +34,8 @@
   height: 20vw;
   width: 20vw;
   position: absolute;
-  bottom: 20%;
-  left: 10%;
+  bottom: 40%;
+  left: 15%;
   transform: translate(-50%, -50%);
   border-radius: 50%;
   z-index: 0;
@@ -43,9 +44,9 @@
 
 .hill {
   height: 95vw;
-  width: 100%;
+  width: 100vw;
   position: absolute;
-  bottom: -45%;
+  bottom: 0%;
   left: 0;
   z-index: 3;
   background-image: url(../assets/hill.webp);
@@ -57,7 +58,7 @@
   height: 85vw;
   width: 100%;
   position: absolute;
-  bottom: -40%;
+  bottom: 0;
   left: 0;
   background-image: url(../assets/forest.webp);
   background-repeat: no-repeat;
@@ -94,5 +95,30 @@
   }
   100% {
     transform: translate3d(-50%, 0, 0);
+  }
+}
+@media only screen and (max-width: 900px) {
+  .home {
+    height: 100vh;
+  }
+  .container {
+    top: 10vh;
+  }
+  .container ::after {
+    content: " Im Simon, Front-End Web Developer";
+  }
+  .sun {
+    height: 35vw;
+    width: 35vw;
+    bottom: 20%;
+    left: 0;
+  }
+  .hill {
+    height: 95vw;
+    bottom: 0%;
+  }
+  .forest {
+    height: 85vw;
+    bottom: 0%;
   }
 }

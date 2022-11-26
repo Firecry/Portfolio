@@ -22,13 +22,13 @@ export default function Home() {
                     data-aos-duration="1500"
                     data-aos-anchor-placement="top-bottom"
                 >
-                    Welcome!
+                    Welcome!<br></br>
                 </div>
             </div>
 
-            <div className='sun' style={{ transform: `translate(${offsetY * .5}px, ${-offsetY * .1}px)` }}></div>
+            <div className='sun' style={{ transform: `translate(${offsetY * .3}px, ${-offsetY * .1}px)` }}></div>
 
-            <div className='hill' style={{ transform: `translateY(${offsetY * .2}px)` }}></div>
+            <div className='hill' style={{ transform: `translateY(${offsetY * .3}px)` }}></div>
 
             <div className='clouds' style={{ transform: `translateY(${offsetY * .5}px)` }}></div>
 

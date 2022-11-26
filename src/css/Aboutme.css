@@ -53,3 +53,9 @@
   right: 5%;
   top: 25%;
 }
+
+@media only screen and (max-width: 900px) {
+  .aboutme {
+    background: linear-gradient(0deg, rgb(0, 0, 0) 85%, rgba(0, 0, 0, 0) 100%);
+  }
+}
