@@ -10,29 +10,29 @@ export default function Projects() {
                 </svg>
             </div>
             <div className='project-flex'>
-                <div className='box'>
-                    <div>
-                        <a href='https://money-clicker-73c52d.netlify.app' target="_blank" rel="noreferrer"
-                            className='project-items clicker-game'
-                        ><div></div></a>
+                <div className='box-container'>
+                    <div className='box-element'>
+                        <a href='https://money-clicker-73c52d.netlify.app' target="_blank" rel="noreferrer">
+                            <div className='project-items clicker-game'></div>
+                        </a>
                         <div className='project-text'>Clicker Game</div>
                     </div>
-                    <div>
-                        <a href='https://js-calculator-ee022d.netlify.app' target="_blank" rel="noreferrer"
-                            className='project-items calculator'
-                        ><div></div></a>
+                    <div className='box-element'>
+                        <a href='https://js-calculator-ee022d.netlify.app' target="_blank" rel="noreferrer">
+                            <div className='project-items calculator'></div>
+                        </a>
                         <div className='project-text'>RGB Calculator</div>
                     </div>
-                    <div>
-                        <a href='https://arm-wresling-f9c5a3.netlify.app' target="_blank" rel="noreferrer"
-                            className='project-items arm-wresling'
-                        ><div></div></a>
+                    <div className='box-element'>
+                        <a href='https://arm-wresling-f9c5a3.netlify.app' target="_blank" rel="noreferrer">
+                            <div className='project-items arm-wresling'></div>
+                        </a>
                         <div className='project-text'>Arm Wresling Game</div>
                     </div>
-                    <div>
-                        <a href='https://to-do-list-5c3e51.netlify.app' target="_blank" rel="noreferrer"
-                            className='project-items to-do-list'
-                        ><div></div></a>
+                    <div className='box-element'>
+                        <a href='https://to-do-list-5c3e51.netlify.app' target="_blank" rel="noreferrer">
+                            <div className='project-items to-do-list'></div>
+                        </a>
                         <div className='project-text'>To Do List</div>
                     </div>
                 </div>
