@@ -1,7 +1,38 @@
 import '../css/Projects.css'
+import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+AOS.init();
+
 export default function Projects() {
+
+    const links = [
+        {
+            name: 'Clicker Game',
+            url: 'https://money-clicker-73c52d.netlify.app',
+            class: 'clicker-game', 
+            delay: '0'
+        },
+        {
+            name: 'RGB Calculator',
+            url: 'https://js-calculator-ee022d.netlify.app',
+            class: 'calculator', 
+            delay: '300'
+        },
+        {
+            name: 'Arm Wresling Game',
+            url: 'https://arm-wresling-f9c5a3.netlify.app',
+            class: 'arm-wresling', 
+            delay: '600'
+        },
+        {
+            name: 'To Do List',
+            url: 'https://to-do-list-5c3e51.netlify.app',
+            class: 'to-do-list', 
+            delay: '900'
+        },
+    ]
+
     return(
         <div className='projects' id="projects">
             <div className='wave'>
@@ -11,34 +42,37 @@ export default function Projects() {
             </div>
             <div className='project-flex'>
                 <div className='box-container'>
-                    <div className='box-element'>
-                        <a href='https://money-clicker-73c52d.netlify.app' target="_blank" rel="noreferrer">
-                            <div className='project-items clicker-game'></div>
-                        </a>
-                        <div className='project-text'>Clicker Game</div>
-                    </div>
-                    <div className='box-element'>
-                        <a href='https://js-calculator-ee022d.netlify.app' target="_blank" rel="noreferrer">
-                            <div className='project-items calculator'></div>
-                        </a>
-                        <div className='project-text'>RGB Calculator</div>
-                    </div>
-                    <div className='box-element'>
-                        <a href='https://arm-wresling-f9c5a3.netlify.app' target="_blank" rel="noreferrer">
-                            <div className='project-items arm-wresling'></div>
-                        </a>
-                        <div className='project-text'>Arm Wresling Game</div>
-                    </div>
-                    <div className='box-element'>
-                        <a href='https://to-do-list-5c3e51.netlify.app' target="_blank" rel="noreferrer">
-                            <div className='project-items to-do-list'></div>
-                        </a>
-                        <div className='project-text'>To Do List</div>
-                    </div>
+                    { links.map(link => {
+                        return(
+                            <div className='box-bg'
+                                data-aos='fade-up'
+                                data-aos-duration="1500"
+                                data-aos-delay={ link.delay }
+                            >
+                            <div className='box-rotate'></div>
+                                <div
+                                    className='box-element'
+                                >
+                                    <a href={ link.url } target="_blank" rel="noreferrer">
+                                        <div className={`project-items ${link.class}`}></div>
+                                        <div className='project-text'>{link.name}</div>
+                                    </a>
+                                </div>
+                            </div>
+                        )
+                    }) }
                 </div>
-                    <div className='seemore'>
+                <div className='seemore-bg'
+                    data-aos='fade-up'
+                    data-aos-duration="1500"
+                    data-aos-delay="1200"
+                >
+                    <div
+                        className='seemore'
+                    >
                         <a href='https://github.com/Firecry?tab=repositories' target='_blank' rel="noreferrer"><div>Show Me More!</div></a>
                     </div>
+                </div>
             </div>
         </div>
     )

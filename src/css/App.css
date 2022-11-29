@@ -7,7 +7,7 @@ html {
 
 ::-webkit-scrollbar {
   background-color: rgb(36, 36, 36);
-  width: 15px;
+  width: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
