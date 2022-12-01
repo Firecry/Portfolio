@@ -54,7 +54,7 @@
     height: 85vw;
     width: 100%;
     position: absolute;
-    bottom: 0;
+    bottom: 9vw;
     left: 0;
     background-image: url(../assets/forest.webp);
     background-repeat: no-repeat;
@@ -80,25 +80,9 @@
 @media only screen and (max-width: 900px){
     .home{
         height: 100vh;
+        background-color: black;
     }
-    .container{
-        top: 10vh;
-        ::after{
-            content: " Im Simon, Front-End Web Developer"
-        }
-    }
-    .sun{
-        height: 35vw;
-        width: 35vw;
-        bottom: 20%;
-        left: 0;
-    }
-    .hill{
-        height: 95vw;
-        bottom: 0%;
-    }
-    .forest{
-        height: 85vw;
-        bottom: 0%;
+    .forest, .hill, .sun, .clouds, .container{
+        display: none;
     }
 }

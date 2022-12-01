@@ -11,13 +11,15 @@ export default function Aboutme() {
                 className='title'
                 data-aos='fade-right'
                 data-aos-duration="1500"
+                data-aos-delay='0'
             >
                 <h1>Szymon Smolorz<div className="material-symbols-outlined">waving_handwaving_hand</div></h1>
             </div>
                 <div
                     className='description'
                     data-aos='fade-right'
-                    data-aos-duration="2000"
+                    data-aos-duration="1500"
+                    data-aos-delay='300'
                 >
                     <p>
                         I'm a frontend web developer, creating websites using React framework.
@@ -30,7 +32,8 @@ export default function Aboutme() {
             <div
                 className='photo'
                 data-aos='fade-left'
-                data-aos-duration="3000"
+                data-aos-duration="1500"
+                data-aos-delay='600'
             ></div>
         </div>
     )

@@ -8,7 +8,7 @@ export default function Projects() {
 
     const links = [
         {
-            name: 'Clicker Game',
+            name: 'Clicker',
             url: 'https://money-clicker-73c52d.netlify.app',
             class: 'clicker-game', 
             delay: '0'
@@ -20,7 +20,7 @@ export default function Projects() {
             delay: '300'
         },
         {
-            name: 'Arm Wresling Game',
+            name: 'Arm Wresling',
             url: 'https://arm-wresling-f9c5a3.netlify.app',
             class: 'arm-wresling', 
             delay: '600'
