@@ -61,3 +61,9 @@
 .bordered:hover {
   border-bottom: 0.2vw solid wheat;
 }
+
+@media only screen and (max-width: 900px) {
+  #navbar, #scrolled {
+    display: none;
+  }
+}

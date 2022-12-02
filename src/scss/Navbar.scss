@@ -21,8 +21,9 @@
         font-variation-settings:
             'FILL' 0,
             'opsz' 48;
-        }
     }
+}
+
     .elements {
         place-content: center space-between;
         align-items: center;
@@ -59,4 +60,10 @@
 }
 .bordered:hover{
     border-bottom: .2vw solid wheat;
+}
+
+@media only screen and (max-width: 900px){
+    #navbar, #scrolled{
+        display: none;
+    }
 }

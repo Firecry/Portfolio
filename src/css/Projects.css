@@ -158,9 +158,10 @@
   }
   .project-flex {
     margin-top: -40px;
-    height: 75vh;
+    height: 80vh;
     align-items: center;
     justify-content: center;
+    gap: 6px;
   }
   .box-container {
     gap: 6px;

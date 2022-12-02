@@ -35,3 +35,15 @@
         background-image: url(../assets/icons/facebook.png);
     }
 }
+
+@media only screen and (max-width: 900px){
+    .footer{
+        justify-content: center;
+        gap: 30px;
+        height: 40px;
+        .footer-items{
+            height: 100%;
+            width: 30px;
+        }
+    }
+}
