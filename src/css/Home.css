@@ -80,7 +80,7 @@
           animation: clouds 30s infinite alternate ease-in-out;
 }
 
-.welcome, .upper-text, .middle-text, .bottom-text {
+.welcome, .upper-text, .middle-text, .bottom-text, .material-symbols-outlined {
   display: none;
 }
 
