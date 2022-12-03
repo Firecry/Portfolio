@@ -12,6 +12,7 @@
   font-weight: 640;
   position: relative;
   overflow: hidden;
+  z-index: 5;
 }
 
 .project-flex {

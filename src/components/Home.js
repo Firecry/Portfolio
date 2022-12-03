@@ -33,6 +33,15 @@ export default function Home() {
             <div className='clouds' style={{ transform: `translateY(${offsetY * .5}px)` }}></div>
 
             <div className='forest' style={{ transform: `translateY(${offsetY * .45}px)` }}></div>
+
+            <div className='mobile-home'>
+                <div className='welcome' style={{ transform: `translateY(${offsetY * .8}px)` }}>Welcome!</div>
+                <div className='upper-text' style={{ transform: `translateY(${offsetY * .6}px)` }}>I'm Szymon</div>
+                <div className='middle-text' style={{ transform: `translateY(${offsetY * .4}px)` }}>Front-End</div>
+                <div className='bottom-text' style={{ transform: `translateY(${offsetY * .2}px)` }}>Web Developer</div>
+                <div className='home-arrow material-symbols-outlined'><a href='#aboutme'>arrow_downward</a></div>
+            </div>
+
         </div>
     )
 }
