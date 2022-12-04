@@ -106,11 +106,10 @@
             width: 95%;
             display: flex;
             flex-direction: column;
+            top: 10%;
             .welcome, .upper-text, .middle-text, .bottom-text{
-                background-color: black;
-                border-top: 3px solid wheat;
-                border-left: 3px solid wheat;
-                border-right: 3px solid wheat;
+                background: linear-gradient(to top, #010001, #010001, #010001, #01000100);
+                border-bottom: 3px solid wheat;
                 display: block;
                 padding: 15px 0 15px 5px;
             }
@@ -119,10 +118,12 @@
                 font-size: 4rem;
             }
             .material-symbols-outlined{
+                background: linear-gradient(to top, #010001, #010001, #010001, #01000100);
+                display: block;
                 text-align: center;
-                margin-top: 50px;
+                margin-top: 5%;
                 font-size: 5rem;
-                animation: arrow 3s linear infinite;
+                animation: arrow 2s linear infinite;
                 font-variation-settings:
                     'FILL' 1,
                     'wght' 700,
