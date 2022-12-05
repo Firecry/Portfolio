@@ -160,16 +160,16 @@
     position: fixed;
     z-index: 5;
     height: 100%;
-    width: 95%;
+    width: auto;
     display: flex;
     flex-direction: column;
-    top: 10%;
+    top: 5vh;
   }
   .home .mobile-home .welcome, .home .mobile-home .upper-text, .home .mobile-home .middle-text, .home .mobile-home .bottom-text {
     background: linear-gradient(to top, #010001, #010001, #010001, rgba(1, 0, 1, 0));
-    border-bottom: 3px solid wheat;
     display: block;
     padding: 15px 0 15px 5px;
+    border-left: 3px solid wheat;
   }
   .home .mobile-home .welcome {
     text-align: center;
@@ -179,11 +179,14 @@
     background: linear-gradient(to top, #010001, #010001, #010001, rgba(1, 0, 1, 0));
     display: block;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 8vh;
     font-size: 5rem;
     -webkit-animation: arrow 2s linear infinite;
             animation: arrow 2s linear infinite;
     font-variation-settings: "FILL" 1, "wght" 700, "GRAD" 200, "opsz" 48;
+  }
+  .home .mobile-home .material-symbols-outlined a {
+    cursor: pointer;
   }
   .forest, .hill, .sun, .clouds, .container {
     display: none;
