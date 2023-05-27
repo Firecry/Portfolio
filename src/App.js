@@ -4,7 +4,8 @@ import Home from './components/Home';
 import Footer from './components/Footer';
 import Aboutme from './components/Aboutme';
 import Projects from './components/Projects';
-import Hobby from './components/Hobby'
+import Hobby from './components/Hobby';
+import Contact from './components/Contact';
 import './css/App.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Aboutme />
         <Projects />
         <Hobby />
+        <Contact />
       <Footer />
     </div>
   );
