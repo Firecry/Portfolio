@@ -1,4 +1,4 @@
-import '../css/Navbar.css';
+import '../scss/Navbar.scss';
 import React, { useState, useEffect } from 'react';
 
 export default function Navbar() {

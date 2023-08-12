@@ -1,4 +1,4 @@
-import '../css/Home.css'
+import '../scss/Home.scss'
 import React, { useState, useEffect } from 'react';
 import 'aos/dist/aos.css';
 

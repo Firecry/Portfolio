@@ -49,7 +49,9 @@
     .hobby{
         height: 100lvh;
         background-image: url(../assets/phoneforest.jpg);
-        background-position: top center;
+        background-size: cover;
+        background-position: center;
+        border-top: 10px solid black;
     }
     .containerHobby{
         width: 100%;
