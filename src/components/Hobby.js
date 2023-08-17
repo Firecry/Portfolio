@@ -1,8 +1,4 @@
-import '../css/Hobby.css'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-
-AOS.init();
+import '../scss/Hobby.scss'
 
 export default function Hobbys() {
 
