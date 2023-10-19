@@ -23,8 +23,9 @@ export default function Aboutme() {
                 >
                     <p>
                         I'm a frontend web developer, creating websites using React framework.
-                        I'm 20 years old and come from Poland. I used to study HTML and CSS for 4 years in IT school.
-                        My interest in JavaScript started a year ago, by my friend.
+                        I'm 21 years old and come from Poland. I used to study HTML and CSS for 4 years in IT school,
+                         but im still learning by myself. It's been 5 years at all.
+                        My interest in JavaScript started 2 years ago, by my friend.
                         It was like he was telling me I had to start, but I didn't want to so much.
                         But now I am fascinated and I want to learn new things every day.
                     </p>

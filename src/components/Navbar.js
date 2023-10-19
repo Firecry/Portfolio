@@ -34,9 +34,9 @@ export default function Navbar() {
                 <div className="material-symbols-outlined">sports_esports</div>
                     Hobby
                 </div></a>
-                <a href='#cv'><div className={isScrolled ? 'margin bordered' : 'margin border'}>
+                <a href='#contact'><div className={isScrolled ? 'margin bordered' : 'margin border'}>
                 <div className="material-symbols-outlined">description</div>
-                    CV
+                    Contact
                 </div></a>
             </div>
         </header>
