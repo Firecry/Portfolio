@@ -4,8 +4,9 @@ import Home from './components/Home';
 import Footer from './components/Footer';
 import Aboutme from './components/Aboutme';
 import Projects from './components/Projects';
-import Hobby from './components/Hobby'
-import './css/App.css';
+import Hobby from './components/Hobby';
+import Contact from './components/Contact';
+import './scss/App.scss';
 
 function App() {
   return (

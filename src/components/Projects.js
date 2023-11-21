@@ -26,9 +26,9 @@ export default function Projects() {
             delay: '600'
         },
         {
-            name: 'To Do List',
-            url: 'https://to-do-list-5c3e51.netlify.app',
-            class: 'to-do-list', 
+            name: 'DWB-Poland Sp. z o. o.',
+            url: 'https://dwb.com.pl/',
+            class: 'dwb-poland', 
             delay: '900'
         },
     ]
@@ -42,6 +42,7 @@ export default function Projects() {
             </div>
             <div className='project-flex'>
                 <div className='box-container'>
+                    <div className='element-container'>
                     { links.map(link => {
                         return(
                             <div className='box-bg'
@@ -49,7 +50,7 @@ export default function Projects() {
                                 data-aos-duration="1500"
                                 data-aos-delay={ link.delay }
                             >
-                            <div className='box-rotate'></div>
+                                <div className='box-rotate'></div>
                                 <div
                                     className='box-element'
                                 >
@@ -61,17 +62,19 @@ export default function Projects() {
                             </div>
                         )
                     }) }
+                    </div>
+
                     <div className='seemore-bg'
                         data-aos='fade-up'
                         data-aos-duration="1500"
-                        data-aos-delay="900"
+                        data-aos-delay="1200"
                     >
-                    <div
-                        className='seemore'
-                    >
-                        <a href='https://github.com/Firecry?tab=repositories' target='_blank' rel="noreferrer"><div>Show Me More!</div></a>
+                        <div
+                            className='seemore'
+                        >
+                            <a href='https://github.com/Firecry?tab=repositories' target='_blank' rel="noreferrer"><div>Show Me More!</div></a>
+                        </div>
                     </div>
-                </div>
                 </div>
             </div>
         </div>
