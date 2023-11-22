@@ -1,40 +1,36 @@
 .hobby{
-    height: 100vh;
-    background-image: url(../assets/hobby.webp);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    height: min(100vh);
     position: relative;
     z-index: 5;
     font-size: 2vw;
-    font-weight: 720;
+    font-weight: 640;
     color: wheat;
     user-select: none;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
+    // padding: clamp(100px, 5vw, 200px) 0px;
+    background-color: #222;
 }
 .containerHobby{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
     width: 100%;
     flex-wrap: wrap;
-    gap: 100px;
+    gap: clamp(20px, 5vw, 80px);
 }
 .hobbys{
     background-color: black;
     width: 350px;
     height: 250px;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 15px;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     .hobbysUp{
         border-radius: 15px 15px 0 0;
         width: 100%;
         height: 70%;
-        background-position: center;
         background-size: cover;
     }
     .hobbysDown{
@@ -47,20 +43,17 @@
 }
 @media only screen and (max-width: 900px){
     .hobby{
-        height: 100lvh;
-        background-image: url(../assets/phoneforest.jpg);
-        background-size: cover;
-        background-position: center;
-        border-top: 10px solid black;
+        font-weight: 720;
+        padding: 50px 0px;
     }
     .containerHobby{
         width: 100%;
-        gap: 20px;
+        gap: 30px;
         flex-direction: column;
     }
     .hobbys{
         width: 80%;
-        height: 20%;
+        height: 150px;
         .hobbysUp{
             height: 100%;
             position: relative;
@@ -85,15 +78,35 @@
         }
     }
 }
-.gym{
-    background-image: url(../assets/gym.webp);
+.skiing{
+    background-image: url(../assets/hobbies/skiing.webp);
+    background-position: center;
+}
+.calisthenics{
+    background-image: url(../assets/hobbies/calisthenics.webp);
+    background-position: center;
 }
 .bicycle{
-    background-image: url(../assets/bicycle.webp);
+    background-image: url(../assets/hobbies/bicycle.webp);
+    background-position: center;
 }
-.games{
-    background-image: url(../assets/games.webp);
+.jogging{
+    background-image: url(../assets/hobbies/jogging.webp);
+    background-position: top;
+}
+.coding{
+    background-image: url(../assets/hobbies/coding.webp);
+    background-position: center;
 }
 .music{
-    background-image: url(../assets/music.webp);
+    background-image: url(../assets/hobbies/music.webp);
+    background-position: center;
+}
+.games{
+    background-image: url(../assets/hobbies/games.webp);
+    background-position: center;
+}
+.movies{
+    background-image: url(../assets/hobbies/cinema.webp);
+    background-position: bottom;
 }

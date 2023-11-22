@@ -1,4 +1,4 @@
-import '../css/Contact.css'
+import '../scss/Contact.scss'
 export default function Contact() {
     return(
         <div className='contact'>siema</div>

@@ -8,24 +8,28 @@ export default function Projects() {
 
     const links = [
         {
+            id: 0,
             name: 'Clicker',
             url: 'https://money-clicker-73c52d.netlify.app',
             class: 'clicker-game', 
             delay: '0'
         },
         {
+            id: 1,
             name: 'RGB Calculator',
             url: 'https://js-calculator-ee022d.netlify.app',
             class: 'calculator', 
             delay: '300'
         },
         {
+            id: 2,
             name: 'Arm Wresling',
             url: 'https://arm-wresling-f9c5a3.netlify.app',
             class: 'arm-wresling', 
             delay: '600'
         },
         {
+            id: 3,
             name: 'DWB-Poland Sp. z o. o.',
             url: 'https://dwb.com.pl/',
             class: 'dwb-poland', 
@@ -49,6 +53,7 @@ export default function Projects() {
                                 data-aos='fade-up'
                                 data-aos-duration="1500"
                                 data-aos-delay={ link.delay }
+                                key = { link.id }
                             >
                                 <div className='box-rotate'></div>
                                 <div
