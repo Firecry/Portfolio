@@ -1,4 +1,5 @@
 import '../scss/Hobby.scss'
+import { Canvas } from '../hooks/Canvas.js'
 
 export default function Hobbys() {
 
@@ -49,12 +50,16 @@ export default function Hobbys() {
             id: 7,
             name: 'Movies',
             class: 'movies', 
-            delay: '900'
+            delay: '1050'
         },
     ]
 
     return(
         <div className='hobby' id='hobby'>
+            
+            <div className='background'></div>
+            <Canvas width={window.innerWidth} height={window.innerHeight} />
+
             <div className='containerHobby'>
 
                 { hobbySetup.map(hobbies => {
