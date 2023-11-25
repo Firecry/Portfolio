@@ -1,7 +1,6 @@
 .hobby{
-    // height: min(100vh);
     position: relative;
-    z-index: 5;
+    z-index: 6;
     font-size: 2vw;
     font-weight: 640;
     color: wheat;
@@ -26,6 +25,7 @@
 }
 Canvas{
     position: absolute;
+    border-top: 3px solid wheat;
     border-bottom: 3px solid wheat;
     bottom: 0;
     left: 0;
@@ -62,6 +62,7 @@ Canvas{
 }
 @media only screen and (max-width: 900px){
     .hobby{
+        height: auto;
         font-weight: 720;
         padding: 50px 0px;
         background-image: url(../assets/background/phone-forest.jpg);
