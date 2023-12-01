@@ -1,5 +1,5 @@
 import '../scss/Hobby.scss'
-import { Canvas } from '../hooks/Canvas.js'
+import { FirefliesCanvas } from '../hooks/FirefliesCanvas.js'
 
 export default function Hobbys() {
 
@@ -58,7 +58,7 @@ export default function Hobbys() {
         <div className='hobby' id='hobby'>
             
             <div className='background'></div>
-            <Canvas width={window.innerWidth} height={window.innerHeight} />
+            <FirefliesCanvas width={window.innerWidth} height={window.innerHeight} />
 
             <div className='containerHobby'>
 

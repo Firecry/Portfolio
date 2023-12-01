@@ -1,6 +1,6 @@
 import { useRef, useEffect } from 'react'
 
-export function Canvas(props){
+export function FirefliesCanvas(props){
     const canvasRef = useRef(null);
 
     useEffect(()=>{
