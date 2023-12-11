@@ -6,50 +6,42 @@ export default function Hobbys() {
     const hobbySetup = [
         {
             id: 0,
-            name: 'Skiing',
-            class: 'skiing', 
+            name: 'skiing', 
             delay: '0'
         },
         {
             id: 1,
-            name: 'Calisthenics',
-            class: 'calisthenics', 
+            name: 'calisthenics', 
             delay: '150'
         },
         {
             id: 2,
-            name: 'Cycling',
-            class: 'bicycle', 
+            name: 'cycling', 
             delay: '300'
         },
         {
             id: 3,
-            name: 'Jogging',
-            class: 'jogging', 
+            name: 'jogging', 
             delay: '450'
         },
         {
             id: 4,
-            name: 'Coding',
-            class: 'coding', 
+            name: 'coding', 
             delay: '600'
         },
         {
             id: 5,
-            name: 'Music',
-            class: 'music', 
+            name: 'music', 
             delay: '750'
         },
         {
             id: 6,
-            name: 'Games',
-            class: 'games', 
+            name: 'games', 
             delay: '900'
         },
         {
             id: 7,
-            name: 'Movies',
-            class: 'movies', 
+            name: 'movies', 
             delay: '1050'
         },
     ]
@@ -71,7 +63,7 @@ export default function Hobbys() {
                             data-aos-delay={ hobbies.delay }
                             key = { hobbies.id }
                         >
-                            <div className={ `hobbysUp ${ hobbies.class }` }></div>
+                            <div className={ `hobbysUp ${ hobbies.name }` }></div>
                             <div className='hobbysDown'><div>{ hobbies.name }</div></div>
                         </div>
                     )

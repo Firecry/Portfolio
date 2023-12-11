@@ -14,6 +14,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    text-transform: capitalize;
 }
 .background{
     background: linear-gradient(180deg, rgba(3,80,5,0) 0%, rgba(1,0,1,1) 54%);
@@ -104,7 +105,7 @@ Canvas{
     background-image: url(../assets/hobbies/calisthenics.webp);
     background-position: center;
 }
-.bicycle{
+.cycling{
     background-image: url(../assets/hobbies/bicycle.webp);
     background-position: center;
 }
