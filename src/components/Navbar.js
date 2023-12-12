@@ -1,5 +1,6 @@
 import '../scss/Navbar.scss';
 import React, { useState, useEffect } from 'react';
+import { House, Person, Build, SportsEsports, Description } from '@material-ui/icons';
 
 export default function Navbar() {
 
@@ -18,25 +19,20 @@ export default function Navbar() {
     return (
         <header id={isScrolled ? 'scrolled' : 'navbar'}>
             <a href='#home'><div className={isScrolled ? 'bordered' : 'border'}>
-            <div className="material-symbols-outlined">house</div>
-                Home
+                <House className='material-symbols-outlined'/>Home
             </div></a>
             <div className='elements'>
                 <a href='#aboutme'><div className={isScrolled ? 'margin bordered' : 'margin border'}>
-                <div className="material-symbols-outlined">person</div>    
-                    About Me
+                    <Person className="material-symbols-outlined" />About Me
                 </div></a>
                 <a href='#projects'><div className={isScrolled ? 'margin bordered' : 'margin border'}>
-                <div className="material-symbols-outlined">build</div>
-                    Projects
+                    <Build className="material-symbols-outlined" />Projects
                 </div></a>
                 <a href='#hobby'><div className={isScrolled ? 'margin bordered' : 'margin border'}>
-                <div className="material-symbols-outlined">sports_esports</div>
-                    Hobby
+                    <SportsEsports className='material-symbols-outlined' />Hobby
                 </div></a>
                 <a href='#contact'><div className={isScrolled ? 'margin bordered' : 'margin border'}>
-                <div className="material-symbols-outlined">description</div>
-                    Contact
+                    <Description className='material-symbols-outlined' />Contact
                 </div></a>
             </div>
         </header>

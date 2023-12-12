@@ -61,7 +61,6 @@ export function FirefliesCanvas(props){
                 c.fillStyle = this.color;
                 c.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
                 c.strokeStyle = '#222';
-                // c.stroke();
                 c.fill();
                 c.shadowColor = '#CDEC27';
                 c.shadowBlur = 20;
@@ -69,8 +68,6 @@ export function FirefliesCanvas(props){
                 c.shadowOffsetY = 0;
             }
         }
-
-        // console.log(eval(lottery[Math.floor(Math.random() * lottery.length)]));
 
         var circleArray = []
 
