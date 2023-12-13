@@ -1,7 +1,9 @@
 .contact{
     height: 100vh;
     width: 100%;
-    background-color: #010001;
+    background: linear-gradient(-45deg, #010001, #1d001d, #010001, #010001);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,5 +15,155 @@
         border-radius: 30px;
         background-color: #ffffff0e;
         backdrop-filter: blur(8px);
+        z-index: 5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .contact-element{
+            // background-color: red;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            flex-direction: column;
+            height: 100%;
+            width: 80%;
+            .contact-element-insider{
+                // background-color: blue;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                gap: 20px;
+                width: 400px;
+                .fillers{
+                    border-radius: 10px;
+                    background-color: #1d001d83;
+                    border: none;
+                    color: #DDBFDE;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-size: 1.2rem;
+                    border: 3px solid #755A76;
+                    &:focus{
+                        outline: 0;
+                    }
+                    &::placeholder{
+                        color: #A88BA8;
+                        opacity: 1;
+                    }
+                }
+                input{
+                    width: 60%;
+                    height: clamp(30px, 15vw, 50px);
+                    text-align: center;
+                    transition: all .2s ease-in-out;
+                    padding: 0px 10px;
+                    &:focus{
+                        width: 100%;
+                    }
+                }
+                textarea{
+                    width: 100%;
+                    resize:none;
+                    aspect-ratio: 1;
+                    padding: 10px;
+                }
+                input[type=submit]{
+                    width: 80%;
+                    background-color: #755A76;
+                    border-color: #462D47;
+                    cursor: pointer;
+                    &:hover{
+                        transform: scale(1.1);
+                        background-color: #A88BA8;
+                        color: #1d001d;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.gradient{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0deg, #03500500 0%, #010001 54%);
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+$size: 50vmin;
+$speed: 35s;
+.bubble {
+	width: $size;
+	height: $size;
+	background: #A88BA8;
+	border: ($size * .09) solid #DDBFDE;
+	position: absolute;
+	top: clamp(calc(40% - (#{$size} * .49)), 15vw, calc(45% - (#{$size} * .49)));
+	left: clamp(calc(30% - (#{$size} * .49)), 15vw, calc(40% - (#{$size} * .49)));
+	overflow: visible;
+	border-radius: 48% 40% 62% 47% /  61% 49% 64% 43%;
+	animation: rotate $speed infinite linear;
+	z-index: 1;
+}
+@keyframes rotate {
+	0% { transform: rotate(1turn); }
+}
+
+.bubble:before {
+	content: '';
+	position: absolute;
+	top: $size * .1;
+	left: $size * .1;
+	width: calc(100% - (#{$size} * .3));
+	height: calc(100% - (#{$size} * .3));
+	background: #462D47;
+	border: ($size * .065) solid #755A76;
+	border-radius: 41% 40% 50% 55% /  49% 52% 51% 43%;
+	z-index: -2;
+	animation: rotateBefore $speed infinite linear;
+}
+@keyframes rotateBefore {
+	0% { transform: rotate(-2turn); }
+}
+
+.bubble:after {
+	content: '';
+	position: absolute;
+	top: $size * .2;
+	left: $size * .2;
+	width: calc(100% - (#{$size * .5}));
+	height: calc(100% - (#{$size * .5}));
+	background: #1a001a;
+	border: ($size * .05) solid #1D001D;
+	border-radius: 42% 63% 51% 60% / 47% 62% 42% 52%;
+	animation: rotateAfter $speed infinite linear;
+}
+@keyframes rotateAfter {
+	0% { transform: rotate(2turn); }
+}
+
+@media only screen and (max-width: 900px){
+    .contact{
+        .contact-container{
+            .contact-element{
+                .contact-element-insider{
+                    width: 100%;
+                }
+            }
+        }
     }
 }

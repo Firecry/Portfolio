@@ -1,5 +1,5 @@
 import '../scss/Hobby.scss'
-import { FirefliesCanvas } from '../hooks/FirefliesCanvas.js'
+import { FirefliesCanvas } from '../canvas/FirefliesCanvas.js'
 
 export default function Hobbys() {
 
