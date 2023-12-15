@@ -1,7 +1,7 @@
 .contact{
     height: 100vh;
     width: 100%;
-    background: linear-gradient(-45deg, #010001, #1d001d, #010001, #010001);
+    background: linear-gradient(-45deg, #010001, #001b08, #010001, #010001);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
     display: flex;
@@ -20,7 +20,6 @@
         align-items: center;
         justify-content: center;
         .contact-element{
-            // background-color: red;
             display: flex;
             align-items: flex-end;
             justify-content: center;
@@ -28,7 +27,6 @@
             height: 100%;
             width: 80%;
             .contact-element-insider{
-                // background-color: blue;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -37,17 +35,17 @@
                 width: 400px;
                 .fillers{
                     border-radius: 10px;
-                    background-color: #1d001d83;
+                    background-color: #001b0870;
                     border: none;
-                    color: #DDBFDE;
+                    color: #96F398;
                     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                     font-size: 1.2rem;
-                    border: 3px solid #755A76;
+                    border: 3px solid #007423;
                     &:focus{
                         outline: 0;
                     }
                     &::placeholder{
-                        color: #A88BA8;
+                        color: #007423;
                         opacity: 1;
                     }
                 }
@@ -69,13 +67,13 @@
                 }
                 input[type=submit]{
                     width: 80%;
-                    background-color: #755A76;
-                    border-color: #462D47;
+                    background-color: #33923F;
+                    border-color: #007423;
                     cursor: pointer;
                     &:hover{
                         transform: scale(1.1);
-                        background-color: #A88BA8;
-                        color: #1d001d;
+                        background-color: #75D279;
+                        color: #001b08;
                     }
                 }
             }
@@ -109,8 +107,8 @@ $speed: 35s;
 .bubble {
 	width: $size;
 	height: $size;
-	background: #A88BA8;
-	border: ($size * .09) solid #DDBFDE;
+	background: #75D279;
+	border: ($size * .09) solid #96F398;
 	position: absolute;
 	top: clamp(calc(40% - (#{$size} * .49)), 15vw, calc(45% - (#{$size} * .49)));
 	left: clamp(calc(30% - (#{$size} * .49)), 15vw, calc(40% - (#{$size} * .49)));
@@ -130,8 +128,8 @@ $speed: 35s;
 	left: $size * .1;
 	width: calc(100% - (#{$size} * .3));
 	height: calc(100% - (#{$size} * .3));
-	background: #462D47;
-	border: ($size * .065) solid #755A76;
+	background: #33923F;
+	border: ($size * .065) solid #55B25C;
 	border-radius: 41% 40% 50% 55% /  49% 52% 51% 43%;
 	z-index: -2;
 	animation: rotateBefore $speed infinite linear;
@@ -147,8 +145,8 @@ $speed: 35s;
 	left: $size * .2;
 	width: calc(100% - (#{$size * .5}));
 	height: calc(100% - (#{$size * .5}));
-	background: #1a001a;
-	border: ($size * .05) solid #1D001D;
+	background: #001b08;
+	border: ($size * .05) solid #007423;
 	border-radius: 42% 63% 51% 60% / 47% 62% 42% 52%;
 	animation: rotateAfter $speed infinite linear;
 }
