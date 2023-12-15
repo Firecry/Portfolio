@@ -7,7 +7,7 @@ export function FirefliesCanvas(props){
         const canvas = canvasRef.current;
         const c = canvas.getContext('2d');
 
-        var ballAmount = 100;
+        var ballAmount = 15;
 
         var colorPalette = [
             '#CDEC27',

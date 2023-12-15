@@ -119,20 +119,22 @@
                 text-align: center;
                 font-size: 4rem;
             }
-            .material-symbols-outlined{
-                display: block;
-                text-align: center;
-                margin-top: 8vh;
-                font-size: 5rem;
-                animation: arrow 2s linear infinite;
-                font-variation-settings:
-                    'FILL' 1,
-                    'wght' 700,
-                    'GRAD' 200,
-                    'opsz' 48
-                ;
-                a{
-                    cursor: pointer;
+            a{
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .material-symbols-outlined{
+                    display: block;
+                    margin-top: 8vh;
+                    font-size: 5rem;
+                    animation: arrow 2s linear infinite;
+                    font-variation-settings:
+                        'FILL' 1,
+                        'wght' 700,
+                        'GRAD' 200,
+                        'opsz' 48
+                    ;
                 }
             }
         }

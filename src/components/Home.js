@@ -1,6 +1,7 @@
 import '../scss/Home.scss'
 import React, { useState, useEffect } from 'react';
 import 'aos/dist/aos.css';
+import Arrow from '@material-ui/icons/ArrowDownward';
 
 export default function Home() {
 
@@ -39,7 +40,7 @@ export default function Home() {
                 <div className='upper-text' style={{ transform: `translateY(${offsetY * .6}px)` }}>I'm Szymon</div>
                 <div className='middle-text' style={{ transform: `translateY(${offsetY * .4}px)` }}>Front-End</div>
                 <div className='bottom-text' style={{ transform: `translateY(${offsetY * .2}px)` }}>Web Developer</div>
-                <div className='home-arrow material-symbols-outlined'><a href='#aboutme'>arrow_downward</a></div>
+                <a href='#aboutme'><Arrow className='home-arrow material-symbols-outlined'></Arrow></a>
             </div>
 
         </div>

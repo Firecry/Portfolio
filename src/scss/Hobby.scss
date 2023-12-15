@@ -39,7 +39,8 @@ Canvas{
     gap: clamp(20px, 5vw, 80px);
 }
 .hobbys{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.301);
+    backdrop-filter: blur(2px);
     width: 350px;
     height: 250px;
     border-radius: 15px;
@@ -65,6 +66,7 @@ Canvas{
         font-weight: 720;
         padding: 50px 0px;
         background-image: url(../assets/background/phone-forest.jpg);
+        background-position: top center;
     }
     .containerHobby{
         width: 100%;
