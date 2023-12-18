@@ -11,7 +11,7 @@
     position: relative;
     .contact-container{
         width: clamp(400px, 80vw, 1400px);
-        height: 75%;
+        padding: 20px 0px;
         border-radius: 30px;
         background-color: #ffffff0e;
         backdrop-filter: blur(8px);
